@@ -8,7 +8,7 @@ To verify that user activity is logged, please include a screenshot of:
 ```bash
 kubectl logs <your pod name>
 ```
-hi
+
 
 ### Suggestions to Make Your Project Stand Out (Optional)   
 
