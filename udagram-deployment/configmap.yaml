@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-config
+  namespace: udagram
+data:
+  POSTGRES_USERNAME: udacity
+  POSTGRES_PASSWORD: udacity123
+  POSTGRES_HOST: udacity-microservice-dev.c5vyzeulzlfi.us-east-1.rds.amazonaws.com
+  POSTGRES_DB: postgres
+  AWS_BUCKET: udacity-microservice-dev
+  AWS_REGION: us-east-1
+  AWS_PROFILE: microservice
+  JWT_SECRET: testing
+  URL: http://localhost:8100
